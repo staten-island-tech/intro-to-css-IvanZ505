@@ -1,0 +1,15 @@
+$colors: (
+  primary: #45a23e,
+  primary-light: #21a,
+);
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
+  html,body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 62.5%;
+      // 1 rem = 10px and vh = viewport height and vw = viewport width 95vw = 95% screen
+  }
+  

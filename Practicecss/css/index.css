@@ -1,0 +1,44 @@
+body {
+  background-color: #f4f1a5;
+  color: orange;
+
+  font-family: Helvetica, sans-serif;
+
+  font-size: 12px;
+  /*Same as above
+  font: normal 16px Helvetica, sans-serif;
+  */
+  line-height: 1.6em;
+}
+p {
+  margin: 5px 10px;
+}
+.container-1 {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: #f4f4f4;
+  padding: 4px;
+  border: 5px green dashed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a: :hover {
+  color: #f4f4;
+}
+
+a: :active {
+  color: #12345;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px blue dashed;
+  padding: 10px;
+  box-sizing: border-box;
+}
